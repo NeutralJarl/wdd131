@@ -1,0 +1,44 @@
+/* Set default styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center; /* Center main content by default */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main content box */
+.container {
+    max-width: 600px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;   /* Add space inside the container */
+}
+
+/* Style the main title */
+h1 {
+    text-transform: uppercase; /* Make letters uppercase */
+    letter-spacing: 2px; /* Add spacing between letters */
+    margin-bottom: 20px;
+}
+
+/* Style the subtitle */
+h2 {
+    color: #006EB6;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    text-align: left; /* Paragraphs are left-aligned */
+    margin-bottom: 20px;
+}
+
+/* Style for the logo image */
+.logo {
+    width: 150px;
+    height: auto; /* Keep proportions */
+    margin-bottom: 20px;
+}
