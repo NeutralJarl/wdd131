@@ -1,44 +1,70 @@
-/* Set default styles */
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 1.5;
-    text-align: center; /* Center main content by default */
-    margin: 0;
+    text-align: center;
+    margin: 40px;
     padding: 0;
+    background-color: #ffffff;
 }
 
-/* Style the main content box */
 .container {
     max-width: 600px;
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 20px;   /* Add space inside the container */
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the main title */
 h1 {
-    text-transform: uppercase; /* Make letters uppercase */
-    letter-spacing: 2px; /* Add spacing between letters */
-    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
 }
 
-/* Style the subtitle */
-h2 {
+.subtitle {
     color: #006EB6;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
 }
 
-/* Paragraph styles */
 p {
-    text-align: left; /* Paragraphs are left-aligned */
+    text-align: left;
     margin-bottom: 20px;
 }
 
-/* Style for the logo image */
+em {
+    font-style: italic;
+}
+
+ol {
+    text-align: left;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
 .logo {
-    width: 150px;
-    height: auto; /* Keep proportions */
-    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.logo .byu {
+    color: #006EB6;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.logo .idaho {
+    color: #006EB6;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 3px;
 }
